@@ -33,3 +33,11 @@
 ### What is KeyBERT?
 
 + KeyBERT is a minimal and easy-to-use keyword extraction technique that leverages BERT embeddings to create keywords and keyphrases that are most similar to a document.
+
+### How it works
+
+1. Document embeddings are extracted with BERT to get document-level representation
+2. Word embeddings are then extracted for N-gram words/phrases
+3. Cosine similarity is then used to find the words that are most similar to the document
+
+(All credits go to https://github.com/MaartenGr/KeyBERT)
