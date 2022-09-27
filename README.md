@@ -16,13 +16,13 @@
 + Build the summarizer and parser using sumy packages
 + Add them to the dataframe
 + Clean the data and remove unwanted or unnecessary character
-+ Using keybert, extract keywords from the clea summary
++ Using keybert, extract keywords from the clean summary
 
 # VADER
 
 ### What is VADER?
 
-
++ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. (https://github.com/cjhutto/vaderSentiment)
 
 # Keybert
 
